@@ -6,3 +6,59 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  align:center;
+  background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+h1 {
+
+}
+
+form {
+  display: inline-block;
+  min-width: 40vw;
+  max-width: 40vw;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 18px;
+}
+
+h2 {
+
+}
+
+.radio-buttons {
+  margin-left: 50px;
+  margin: 15px;
+}
+
+.receive-message {
+  color: #ffffff;
+  background-color: #134d71;
+  border-radius: 5px;
+}
+
+h3 {
+  display: inline-block;
+  min-width: 70vw;
+  max-width: 70vw;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 32.5px;
+
+}
+
+.littleguy {
+  height: 90px;
+  width: 90px;
+}
