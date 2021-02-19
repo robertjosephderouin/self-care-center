@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-
+  padding-bottom: 7vh;
 }
 
 form {
@@ -34,39 +34,39 @@ form {
   color: #000000;
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 18px;
-}
-
-h2 {
-
+  padding: 3vh;
 }
 
 .radio-buttons {
-  margin-left: 50px;
-  margin: 15px;
+  margin-left: 6vh;
+  margin: 2vh;
 }
 
 .receive-message {
   color: #ffffff;
   background-color: #134d71;
   border-radius: 5px;
+
 }
 
-h3 {
+section {
   display: inline-block;
   min-width: 70vw;
   max-width: 70vw;
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 32.5px;
+  margin: 4vh;
+
 
 }
 
 .message-text {
   color: #000000;
+  padding-top: 6vh;
 }
 
 .littleguy {
   height: 90px;
   width: 90px;
+  padding-top: 6vh;
 }
