@@ -20,11 +20,11 @@ body {
 }
 
 .affirmation-body {
-  background-image: linear-gradient(#c7ddff, #c7ddff, #267bff);
+  background-image: linear-gradient(#134d71, pink, #f7e4bf);
 }
 
 .mantra-body {
-  background-image: linear-gradient(#00c92c, #009420, #005913);
+  background-image: linear-gradient(#134d71, #009420, #f7e4bf);
 }
 
 .hidden {
@@ -50,8 +50,8 @@ form {
   margin: 2vh;
 }
 
-.radio-buttons:hover, .receive-message:hover {
-  background-color: #00ad0e;
+.receive-message:hover {
+  background-color: red;
   transition: background-color 2s;
 }
 
@@ -70,9 +70,16 @@ section {
   margin: 4vh;
 }
 
+@keyframes fadingTest {
+  from {color: #ffffff;}
+  to {color: #000000;}
+}
+
 .message-text {
   color: #000000;
   padding-top: 6vh;
+  animation-name: fadingTest;
+  animation-duration: 4s;
 }
 
 .littleguy {
