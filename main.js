@@ -1,6 +1,9 @@
 var receiveMessagesButton = document.querySelector('.receive-message');
 var littleGuyImage = document.querySelector('.littleguy');
 var messageText = document.querySelector('.message-text');
+var body = document.querySelector('.the-body');
+var affirmationButton = document.querySelector('.affirmation-button');
+var mantraButton = document.querySelector('.mantra-button');
 
 var mantras = [
   "Breathing in, I send myself love. Breathing out, I send love to someone else who needs it.",
@@ -31,6 +34,18 @@ var affirmations = [
 ]
 
 receiveMessagesButton.addEventListener('click', receiveMessages);
+affirmationButton.addEventListener('click', affirmationBackgroundSwitch);
+mantraButton.addEventListener('click', mantraBackGroundSwitch);
+
+function affirmationBackgroundSwitch() {
+  body.classList.remove('mantra-body');
+  body.classList.add('affirmation-body');
+}
+
+function mantraBackGroundSwitch() {
+  body.classList.remove('affirmation-body');
+  body.classList.add('mantra-body');
+}
 
 function getRandomIndex(inputRandomList) {
   return Math.floor(Math.random() * inputRandomList.length);

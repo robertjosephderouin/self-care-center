@@ -19,8 +19,16 @@ body {
 
 }
 
+.affirmation-body {
+  background-image: linear-gradient(#c7ddff, #c7ddff, #267bff);
+}
+
+.mantra-body {
+  background-image: linear-gradient(#00c92c, #009420, #005913);
+}
+
 .hidden {
-  display: none!important;
+  display: none;
 }
 
 h1 {
