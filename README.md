@@ -4,13 +4,6 @@ A [Front-End Project] by [Robert DeRouin](https://github.com/robertjosephderouin
 
 * Project Manager: NA
 
-1. [Overview](#overview)
-2. [Functionality](#functionality)
-3. [Iterations](#iterations)
-4. [Technologies](#technologies)
-5. [Contributors](#contributors)
-6. [Resources](#resources)
-
 ## Overview
 
 The Self Care Center allows users to pick a mantra or an affirmation then supplies a random one of them.
