@@ -82,8 +82,27 @@ section {
   animation-duration: 4s;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    max-height: 90px;
+  }
+  100% {
+    opacity: 0;
+    max-height: 0px;
+  }
+}
+
+.fadeout {
+  animation: fade 4s;
+}
+
 .littleguy {
   height: 90px;
   width: 90px;
   padding-top: 6vh;
+  max-height: 90px;
 }

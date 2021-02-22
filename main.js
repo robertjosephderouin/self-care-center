@@ -59,18 +59,25 @@ function hide(element) {
   element.classList.add('hidden');
 }
 
+function fadeOut(element) {
+  element.classList.add('fadeout');
+  element.addEventListener('animationend', function(){
+    hide(element);
+  });
+}
+
 function receiveMessages() {
   var currentMessage = 0;
   var radioChoice = document.querySelector('.radio-buttons:checked')
   if (radioChoice.value === "mantra") {
     currentMessage = getRandomIndex(mantras);
-    hide(littleGuyImage);
+    fadeOut(littleGuyImage);
     messageText.innerText = mantras[currentMessage];
     show(messageText);
   }
   else if (radioChoice.value === "affirmation") {
     currentMessage = getRandomIndex(affirmations);
-    hide(littleGuyImage);
+    fadeOut(littleGuyImage);
     messageText.innerText = affirmations[currentMessage];
     show(messageText);
   }
