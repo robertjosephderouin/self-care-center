@@ -25,6 +25,7 @@ The Self Care Center allows users to pick a mantra or an affirmation then suppli
 ## Contributors
 
 *Creator: [Robert DeRouin](https://github.com/robertjosephderouin)
+Code Review: [JOhn Louderback](https://github.com/JohnLouderback)
 
 
 ## Resources
